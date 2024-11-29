@@ -49,7 +49,7 @@ public class Pelis {
 	}
 
 	public String toString() {
-		return "El nombre de la pelicula es: " + nombre + " \nsu genero es: " + genero + " \naño " + anio + " \ndura "
+		return "Nombre: " + nombre + " \nGenero: " + genero + " \nAño: " + anio + " \nDuracion: "
 				+ duracion;
 	}
 

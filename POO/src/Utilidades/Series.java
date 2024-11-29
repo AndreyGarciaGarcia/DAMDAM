@@ -25,7 +25,7 @@ public class Series {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("Nombre de la serie: ").append(nombre).append("\n");
+		sb.append("Nombre: ").append(nombre).append("\n");
 		sb.append("Género: ").append(genero).append("\n");
 		sb.append("Año de lanzamiento: ").append(anio).append("\n");
 

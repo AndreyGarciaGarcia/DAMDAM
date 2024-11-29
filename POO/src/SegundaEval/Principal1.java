@@ -1,7 +1,6 @@
 package SegundaEval;
 
 import java.util.Scanner;
-
 import Utilidades.Pelis;
 import Utilidades.Series;
 import Utilidades.Temporadas;
@@ -25,7 +24,7 @@ public class Principal1 {
 		serie2.agregarTemporada(new Temporadas(2, 8));
 
 		// Mostrar menú
-		System.out.println("Elige una de las opciones:");
+		System.out.println("QUE DESEA HACER");
 		System.out.println("1. Mostrar información de películas");
 		System.out.println("2. Mostrar información de series. Incluye temporadas y capítulos");
 
@@ -33,7 +32,10 @@ public class Principal1 {
 
 		if (opcion == 1) {
 			// Mostrar información de películas
+			System.out.println("PELICULA 1");
 			System.out.println(pelicula1);
+			System.out.println("\s");
+			System.out.println("PELICULA 2");
 			System.out.println(pelicula2);
 		} else if (opcion == 2) {
 			// Mostrar información de series
